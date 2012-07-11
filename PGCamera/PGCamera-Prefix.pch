@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PGCamera' target in the 'PGCamera' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
