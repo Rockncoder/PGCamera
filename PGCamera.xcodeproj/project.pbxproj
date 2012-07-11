@@ -37,6 +37,7 @@
 		053A4EE415AD302E005B273A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 053A4EE315AD302E005B273A /* AppDelegate.m */; };
 		053A4EE715AD302F005B273A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053A4EE615AD302F005B273A /* MainViewController.m */; };
 		053A4EE915AD302F005B273A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 053A4EE815AD302F005B273A /* MainViewController.xib */; };
+		053A4EF915AD35C0005B273A /* www in Resources */ = {isa = PBXBuildFile; fileRef = 053A4EF815AD35C0005B273A /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,10 +55,10 @@
 		053A4EAF15AD302E005B273A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		053A4EB115AD302E005B273A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		053A4EB315AD302E005B273A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		053A4EB715AD302E005B273A /* PGCamera-Info.plist */ = {isa = PBXFileReference; path = "PGCamera-Info.plist"; sourceTree = "<group>"; };
+		053A4EB715AD302E005B273A /* PGCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PGCamera-Info.plist"; sourceTree = "<group>"; };
 		053A4EB915AD302E005B273A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		053A4EBB15AD302E005B273A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		053A4EBD15AD302E005B273A /* PGCamera-Prefix.pch */ = {isa = PBXFileReference; path = "PGCamera-Prefix.pch"; sourceTree = "<group>"; };
+		053A4EBD15AD302E005B273A /* PGCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PGCamera-Prefix.pch"; sourceTree = "<group>"; };
 		053A4EBE15AD302E005B273A /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		053A4EC315AD302E005B273A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		053A4EC715AD302E005B273A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -70,13 +71,14 @@
 		053A4EDB15AD302E005B273A /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		053A4EDD15AD302E005B273A /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		053A4EDF15AD302E005B273A /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		053A4EE215AD302E005B273A /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		053A4EE215AD302E005B273A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		053A4EE315AD302E005B273A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		053A4EE515AD302E005B273A /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		053A4EE515AD302E005B273A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		053A4EE615AD302F005B273A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		053A4EE815AD302F005B273A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		053A4EEB15AD302F005B273A /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
-		053A4EEC15AD302F005B273A /* verify.sh */ = {isa = PBXFileReference; path = verify.sh; sourceTree = "<group>"; };
+		053A4EEB15AD302F005B273A /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		053A4EEC15AD302F005B273A /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		053A4EF815AD35C0005B273A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		053A4E8915AD302E005B273A = {
 			isa = PBXGroup;
 			children = (
+				053A4EF815AD35C0005B273A /* www */,
 				053A4EB515AD302E005B273A /* PGCamera */,
 				053A4E9A15AD302E005B273A /* Frameworks */,
 				053A4E9815AD302E005B273A /* Products */,
@@ -328,6 +331,7 @@
 				053A4EDE15AD302E005B273A /* Capture.bundle in Resources */,
 				053A4EE015AD302E005B273A /* Cordova.plist in Resources */,
 				053A4EE915AD302F005B273A /* MainViewController.xib in Resources */,
+				053A4EF915AD35C0005B273A /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
